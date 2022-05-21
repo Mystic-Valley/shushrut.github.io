@@ -1943,6 +1943,11 @@ input, select, textarea {
 
 			.tiles article > a h2 {
 				margin: 0;
+				text-shadow:
+						-4px -4px 30px black,
+						4px -4px 30px black,
+						-4px 4px 30px black,
+						4px 4px 30px black;
 			}
 
 			.tiles article > a .content {
@@ -1955,6 +1960,11 @@ input, select, textarea {
 				line-height: 1.5;
 				margin-top: 0.35em;
 				opacity: 0;
+  				text-shadow:
+						-2px -2px 30px black,
+						2px -2px 30px black,
+						-2px 2px 30px black,
+						2px 2px 30px black;
 			}
 
 				.tiles article > a .content > :last-child {
