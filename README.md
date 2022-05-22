@@ -11,5 +11,5 @@ I have used following free templates to build the site:
 [Phantom](https://html5up.net/phantom)
 
 # License
-This portfolio is an open source project build with the help of free available templates. No permission is required to use this site's source code as template :)
+This portfolio is an open source project build with the help of free available templates. No permission is required to use the source code as template :)
 
