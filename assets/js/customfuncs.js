@@ -24,3 +24,23 @@ function getAge(fromdate, todate){
     document.write(age.join(''));
     return age.join('');
 }
+// truncateDecimals = function (number, digits) {
+//     var multiplier = Math.pow(10, Math.abs(digits)),
+//         adjustedNum = number * multiplier,
+//         truncatedNum = Math[adjustedNum < 0 ? 'ceil' : 'floor'](adjustedNum);
+//
+//     return truncatedNum / multiplier;
+// };
+var age, daysBetweenDates;
+daysBetweenDates = function(d1, d2) {
+  var diffDays, oneDay;
+  oneDay = 24 * 60 * 60 * 1000;
+  diffDays = (d2 - Date.parse(d1)) / oneDay;
+  return diffDays;
+};
+
+age = function() {
+  $('#myAge').text(daysBetweenDates('Jan 7, 2021 00:00:00', new Date()) / 365);
+};
+
+setInterval(age, 1000);
