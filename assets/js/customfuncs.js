@@ -36,7 +36,7 @@ daysBetweenDates = function(d1, d2) {
   var diffDays, oneDay;
   oneDay = 24 * 60 * 60 * 1000;
   diffDays = (d2 - Date.parse(d1)) / oneDay;
-  newNum = diffDays/365
+  newNum = diffDays/365;
   newNum = newNum.toFixed(4);
   document.write(newNum);
 };
