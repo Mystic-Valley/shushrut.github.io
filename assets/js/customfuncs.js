@@ -36,11 +36,13 @@ daysBetweenDates = function(d1, d2) {
   var diffDays, oneDay;
   oneDay = 24 * 60 * 60 * 1000;
   diffDays = (d2 - Date.parse(d1)) / oneDay;
-  return diffDays;
+  newNum = diffDays/365
+  newNum = newNum.toFixed(4);
+  document.write(newNum);
 };
 
-age = function() {
-  $('#myAge').text(daysBetweenDates('Jan 7, 2021 00:00:00', new Date()) / 365);
-};
-
-setInterval(age, 1000);
+// age = function() {
+//   $('#myAge').text(daysBetweenDates('Jan 7, 2021 00:00:00', new Date()) / 365);
+// };
+//
+// setInterval(age, 1);
