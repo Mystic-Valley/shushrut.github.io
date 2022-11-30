@@ -1,8 +1,8 @@
-# Portfolio
+# Web resume
 Hi! This is Shushrut Gupta, and I work as Data Engineer (PySpark Developer) at Tata Consultancy Services.
 
-# Portfolio link
-<https://mystic-valley.github.io/portfolio/>
+# Web resume link
+<https://mystic-valley.github.io/webresume/>
 
 # Templates
 I have used following free templates to build the site:
